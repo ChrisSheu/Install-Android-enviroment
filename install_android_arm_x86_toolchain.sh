@@ -16,7 +16,7 @@ echo "*****  SET NDK PATH=$NDK_PATH   *****"
 mkdir -p $NDK_PATH && cd $NDK_PATH
 
 #get NDK ARM_X86
-wget -O $NDK_ANDROID_ARM_X86_PACKAGE http://dl.google.com/android/ndk/$NDK_ANDROID_X86_PACKAGE
+wget -O $NDK_ANDROID_ARM_X86_PACKAGE http://dl.google.com/android/ndk/$NDK_ANDROID_ARM_X86_PACKAGE
 chmod 755 $NDK_ANDROID_ARM_X86_PACKAGE
 
 #extract NDK package.
